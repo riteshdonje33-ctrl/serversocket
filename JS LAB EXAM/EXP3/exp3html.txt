@@ -1,0 +1,73 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<title>String Operations</title>
+</head>
+<body>
+<h1>String Operations</h1>
+
+<h2>Reverse String</h2>
+<input type="text" id="reverseInput" placeholder="Enter a string">
+<button onclick="reverseText()">Reverse</button>
+<p id="reverseOutput"></p>
+
+<h2>Replace Character</h2>
+<input type="text" id="originalText" placeholder="Original string">
+<input type="text" id="searchChar" maxlength="1" placeholder="Character to find">
+<input type="text" id="replacement" placeholder="Replace with">
+<button onclick="replaceCharacter(false)">Replace First</button>
+<button onclick="replaceCharacter(true)">Replace All</button>
+<p id="replaceOutput"></p>
+
+<h2>Check Palindrome</h2>
+<input type="text" id="palindromeInput" placeholder="Enter a string">
+<button onclick="testPalindrome()">Check Palindrome</button>
+<p id="palindromeOutput"></p>
+
+<script src="script2.js"></script>
+</body>
+</html> -->
+<!--  -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>String Operations</title>
+</head>
+<!--  -->
+<body>
+    <h1>String Operations</h1>
+
+
+<!-- -->
+<h2> Reverse String </h2>
+<input type ="text" id="reverseInput" placeholder="Enter a string">
+
+<!--  -->
+<button onclick="reverseText()"> Reverse</button>
+<p id="reverseOutput"></p>
+
+<!--  -->
+
+<h2>Replace Character</h2>
+<input type="text" id="originalText" placeholder="Orginal String">
+<input type="text" id="searchChar" maxlength="1" placeholder="Character to find">
+<input type="text" id="replacement" placeholder="Replace with">
+<!--  -->
+<button onclick="replaceCharacter(false)">Replace first</button>
+<button onclick="replaceCharacter(true)">Replace All</button>
+<p id="replaceOutput"></p>
+
+<!--  -->
+<h2>Check Palindrome</h2>
+<input type="text" id="palindromeInput" placeholder="Enter a String">
+
+<!--  -->
+<button onclick="testPalindrome()">Check Palindrome</button>
+<p id="palindromeOutput"></p>
+
+<!--  -->
+<script src="script2.js"></script>
+
+
+</body>
+</html>

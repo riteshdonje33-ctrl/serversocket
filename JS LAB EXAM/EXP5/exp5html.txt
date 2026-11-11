@@ -1,0 +1,51 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<title>Countdown Timer</title>
+</head>
+<body>
+<h1>JavaScript Countdown Timer</h1>
+
+<h2>Set the End Date and Time</h2>
+<input type="datetime-local" id="endDate">
+<button onclick="startTimer()">Start Countdown</button>
+<button onclick="stopTimer()">Stop Countdown</button>
+
+<h2>Time Remaining</h2>
+<p id="clock">00 Years 00 Months 00 Days 00 Hours 00 Minutes 00 Seconds</p>
+<p id="output">Select a date and time, then press Start Countdown.</p>
+
+<script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Countdown timer</title>
+</head>
+<!--  -->
+<body>
+<h2>Countdown Timer</h2>
+<!--  -->
+
+<h2> Set the End Date and Time</h2>
+<input type="datetime-local" id="endDate">
+<button onclick="startTimer()">Start Countdown</button>
+<button onclick="stopTimer()">Stop Countdown</button>
+
+<!--  -->
+<h2>Time Remaining</h2>
+<p id="clock">00 Years 00 Months 00 Days 00 Hours 00 Minutes 00 Seconds</p>
+<p id="output">Select a date and time,then press Start Countdown</p>
+
+
+<!--  -->
+<script src="script.js"></script>
+
+
+
+
+
+</body>
+</html>

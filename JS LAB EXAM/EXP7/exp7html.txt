@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Experiment 7</title>
+</head>
+<body>
+<h2>Experiment 7</h2>
+
+<h3>Create Array</h3>
+<input type="number" id="size" placeholder="Array size">
+<button onclick="initializeArray()">Initialize Array</button><br>
+<input type="text" id="element" placeholder="Example: 10, hello, [1,2,3]">
+<button onclick="addElement()">Add Element</button>
+<p id="createOutput"></p>
+
+<h3>Current Array</h3>
+<p id="currentArray">[]</p>
+
+<h3>Check Object at Index for Array</h3>
+<input type="number" id="indexInput" placeholder="Index">
+<button onclick="checkArray()">Check</button>
+<p id="indexOutput"></p>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<title>String Comparison</title>
+</head>
+<body>
+<h1>String Comparison</h1>
+
+<h2>Enter Strings</h2>
+<label>First String:</label>
+<input type="text" id="textA">
+<label>Second String:</label>
+<input type="text" id="textB">
+<button onclick="runComparison()">Compare Strings</button>
+<p id="errorMessage"></p>
+
+<h2>Comparison Results</h2>
+<div id="resultBox"></div>
+
+<script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>String Comparison</title>
+
+</head>
+
+<body>
+    <h1>String Comparison</h1>
+<!--  -->
+    <h2> Enter a String </h2>
+    <label>First String:</label>
+    <input type="text" id="textA">
+    <label>Second String:</label>
+    <input type="text" id="textB">
+
+<!--  -->
+    <button onclick="runComparison()">Compare String</button>
+    <p id="errorMessage"></p>
+
+    <h2>Comparison Results</h2>
+    <div id="resultBox"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

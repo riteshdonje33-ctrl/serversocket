@@ -1,0 +1,100 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<title>Area Calculator</title>
+</head>
+<body>
+<h1>Area Calculator</h1>
+<p>Please enter the radius or three sides of triangle or length and breadth, then click the calculate area button.</p>
+
+<h2>Circle Area</h2>
+<label>Enter Radius:</label>
+<input type="number" id="radius">
+<button onclick="circleArea()">Calculate Area</button>
+<p id="circleResult"></p>
+
+<h2>Triangle Area</h2>
+<label>Enter Three Sides:</label>
+<input type="number" id="side1">
+<input type="number" id="side2">
+<input type="number" id="side3">
+<button onclick="triangleArea()">Calculate Area</button>
+<p id="triangleResult"></p>
+
+<h2>Rectangle Area</h2>
+<label>Enter Length and Breadth:</label>
+<input type="number" id="length">
+<input type="number" id="breadth">
+<button onclick="rectangleArea()">Calculate Area</button>
+<p id="rectangleResult"></p>
+
+<script src="exp1.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Area Calculator</title>
+</head>
+<!-- <-- doc html head title /head -->
+
+<!-- body h1 close  p close  -->
+<body>
+<h1>Area Calculator</h1>
+<p> Please enter the radius or three sides of triangle or lenght and breadth ,then click calculate button.</p>
+
+<!-- circle handing + label -->
+
+<h2>Circle Area</h2>
+<label>Enter the Radius:</label>
+
+<!--circle 3 pis unit:input+button +p  -->
+<input type = "number" id = "radius">
+<button onclick = "circleArea()">Calculate Area</button>
+<p id = "circleResult"></p>
+
+
+
+<!-- triangle 3 sides -->
+<h2>Triangle Area</h2>
+<label>Enter Three Sides:</label>
+
+
+<!-- trree 3 input -->
+<input type = "number" id = "side1">
+<input type = "number" id = "side2">
+<input type = "number" id = "side3">
+
+
+
+
+<!-- triangle button + result -->
+<button onclick="triangleArea()">Calculate Area</button>
+<p id="triangleResult"></p>
+
+
+
+<!-- rectangel lable -->
+
+<h2>Rectangle Area</h2>
+<label>Enter the sides:</label>
+<!-- inputs -->
+
+
+<input type="number" id = "length">
+<input type="number" id = "breadth">
+
+
+
+
+<!-- area of rectangle button+result pid -->
+<button onclick="rectangleArea()">Calculate Area</button>
+<p id="rectangleResult"></p>
+
+<!-- srcipt link + close body + close html -->
+<script src ="Exp1.js"></script>
+</body>
+</html>
+

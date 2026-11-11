@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Experiment 8 - Changing Background Colour</title>
+</head>
+<body>
+<p><b>Name : <span onmouseover="nameOver()" onmouseout="nameOut()">Ritesh Donje</span></b></p>
+<p><b>Roll Number : 42318</b></p>
+<p><b>Batch : P7</b></p>
+<input type="text" placeholder="Click here for focus event" onfocus="fieldFocus()" onblur="fieldBlur()">
+
+<script src="script.js"></script>
+</body>
+</html>

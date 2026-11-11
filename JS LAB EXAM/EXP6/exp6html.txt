@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Array Operations</title>
+</head>
+<body>
+<h2>Array Operations</h2>
+
+<input type="number" id="size" placeholder="Array size">
+<button onclick="initializeArray()">Initialize Array</button><br>
+<input type="text" id="element" placeholder="Element">
+<button onclick="addElement()">Add Element</button>
+<p id="createOutput"></p>
+
+<h3>Current Array</h3>
+<p id="currentArray">[]</p>
+
+<h3>Remove Element</h3>
+<input type="radio" name="removeType" value="value" checked> By Value
+<input type="radio" name="removeType" value="index"> By Index
+<input type="text" id="removeInput">
+<button onclick="removeElement()">Remove</button>
+<p id="removeOutput"></p>
+
+<h3>Search Element</h3>
+<input type="radio" name="searchType" value="value" checked> By Value
+<input type="radio" name="searchType" value="index"> By Index
+<input type="text" id="searchInput">
+<button onclick="searchElement()">Search</button>
+<p id="searchOutput"></p>
+
+<button onclick="flushArray()">Flush Array</button>
+<p id="flushOutput"></p>
+
+<script src="script.js"></script>
+</body>
+</html>

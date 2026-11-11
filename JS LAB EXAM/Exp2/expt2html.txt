@@ -1,0 +1,100 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<title>Multiplication Table Generator</title>
+</head>
+<body>
+<h1>Multiplication Table Generator</h1>
+
+<h2>For Loop</h2>
+<label>Enter Number:</label>
+<input type="number" id="forNumber">
+<label>Multiplier Limit:</label>
+<input type="number" id="forLimit">
+<button onclick="createTable('for')">Generate Table</button>
+<p id="forError"></p>
+<pre id="forResult"></pre>
+
+<h2>While Loop</h2>
+<label>Enter Number:</label>
+<input type="number" id="whileNumber">
+<label>Multiplier Limit:</label>
+<input type="number" id="whileLimit">
+<button onclick="createTable('while')">Generate Table</button>
+<p id="whileError"></p>
+<pre id="whileResult"></pre>
+
+<h2>Do-While Loop</h2>
+<label>Enter Number:</label>
+<input type="number" id="doNumber">
+<label>Multiplier Limit:</label>
+<input type="number" id="doLimit">
+<button onclick="createTable('do')">Generate Table</button>
+<p id="doError"></p>
+<pre id="doResult"></pre>
+
+<script src="expt2.js"></script>
+</body>
+</html> -->
+<!-- chunk1 html 5 line doc,html,head,title,head -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiplication Table Generator</title>
+</head>
+
+<!-- body + main heading  -->
+
+<body>
+<h1>Multiplication Table Generator</h1>
+
+
+<!-- 3. for loop section heading + 2 input/lable -->
+
+<h2>For loop</h2>
+<label>Enter the Number:</label>
+<input type ="number" id ="forNumber">
+<label>Multiplier limit:</label>
+<input type = "number" id = "forLimit">
+
+<!-- 4. button id + error + result -->
+
+<button onclick= "createTable('for')">Generate Table</button>
+<p id = "forError"></p>
+<pre id = "forResult"></pre>
+
+
+<!-- 5 while -->
+
+<h2>While loop</h2>
+<label>Enter the number:</label>
+<input type = "number" id = "whileNumber">
+<label>Multiplier Limit</label>
+<input type = "number" id = "whileLimit">
+
+
+<!--  6 while button -->
+<button onclick="createTable('while')">Generate Table</button>
+<p id = "whileError"></p>
+<pre id = "whileResult"></pre>
+
+
+<!-- 7 do while -->
+
+<h2>Do while loop</h2>
+<label>Enter the number:</label>
+<input type ="number" id = "doNumber">
+<label>Multiplier limit</label>
+<input type = "number" id = "doLimit">
+
+<!-- 8  -->
+
+<button onclick="createTable('do')">Generate Table</button>
+<p id="doError"></p>
+<pre id="doResult"></pre>
+
+<!-- 9link -->
+
+<script src = "expt2.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Information Form</title>
+</head>
+<body>
+<h1>Student Information Form</h1>
+
+<form id="form" onsubmit="return validateForm()">
+Full Name: <input type="text" id="name"><br>
+Address: <textarea id="address"></textarea><br>
+City: <input type="text" id="city"><br>
+State:
+<select id="state">
+<option value="">-- Select your state --</option>
+<option>Maharashtra</option>
+<option>Karnataka</option>
+<option>Gujarat</option>
+<option>Goa</option>
+<option>Madhya Pradesh</option>
+<option>Rajasthan</option>
+<option>Tamil Nadu</option>
+</select><br>
+Gender:
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female
+<input type="radio" name="gender" value="Other"> Other<br>
+Mobile Number: <input type="text" id="mobile" maxlength="10"><br>
+Email Id: <input type="text" id="email"><br>
+<button type="submit">Submit</button>
+<button type="reset" onclick="document.getElementById('error').textContent=''">Reset</button>
+
+</form>
+<pre id="error"></pre>
+
+<div id="welcome" hidden>
+<h2>Congratulations</h2>
+<p>Your details have been submitted successfully.</p>
+<pre id="result"></pre>
+<button onclick="location.reload()">Fill the Form Again</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
